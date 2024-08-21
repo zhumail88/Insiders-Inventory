@@ -1,0 +1,63 @@
+.nb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: Fixed (1440px)px;
+    height: Hug (115.75px)px;
+    padding: 30px 80px 30px 80px;
+    gap: 10px;
+    opacity: 0px;
+    background-color: #0F2928;
+    color: white;
+}
+
+.nb-text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.nb-Inventory-Text,
+.nb-links ul li:first-child {
+    color: #4DAD49;
+}
+
+.nb-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+}
+.nb-links ul li:hover , .nb-btn {
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.nb-btn button {
+    background-color: #4DAD49;
+    width: Hug (206.75px)px;
+    height: Hug (55.75px)px;
+    padding: 11px 34px 11px 32px;
+    gap: 3px;
+    border-radius: 50px;
+    opacity: 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    cursor:pointer;
+}
+
+.nb-btn img {
+    padding-left: 6px;
+    align-self: center;
+}
