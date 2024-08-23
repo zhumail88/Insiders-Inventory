@@ -1,10 +1,14 @@
 .su {
     width: Fixed (1440px)px;
-    height: calc(100vh - Hug (115.75px)px);
+    /* height: calc(100vh - 115.75px); */
+    height: 100vh;
+    position: relative;
     top: 116px;
     gap: 0px;
     opacity: 0px;
     background-color: #ffffff;
+    /* background-color: black; */
+
 }
 
 .su-signup {

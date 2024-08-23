@@ -1,5 +1,6 @@
 import React from 'react';
 import './SignupForm.css'
+import ArrowImage from '../../assets/arrow.png'
 
 function SignupForm() {
   return (
@@ -18,21 +19,21 @@ function SignupForm() {
       <label htmlFor="email">Email</label>
       <input type="email" id="email" placeholder="Enter your Email here" />
 
-        <div className='check-g1'>
-            <label>
-            <input type="checkbox" /> Investor
-            </label>
-            <label>
-            <input type="checkbox" /> Home Buyer
-            </label>
-            <label>
-            <input type="checkbox" /> Agent
-            </label>
-            <label>
-            <input type="checkbox" /> Fund/REIT Investment Buyer
-            </label>
-        </div>
-        
+      <div className='check-g1'>
+        <label>
+          <input type="checkbox" /> Investor
+        </label>
+        <label>
+          <input type="checkbox" /> Home Buyer
+        </label>
+        <label>
+          <input type="checkbox" /> Agent
+        </label>
+        <label>
+          <input type="checkbox" /> Fund/REIT Investment Buyer
+        </label>
+      </div>
+
 
       <label htmlFor="phoneNumber">Phone number</label>
       <input type="text" id="phoneNumber" placeholder="Enter your phone number" />
@@ -40,16 +41,18 @@ function SignupForm() {
       <label htmlFor="password">Password</label>
       <input type="password" id="password" placeholder="Enter Password" />
 
-      <div>
+      <div className='confirmBtn'>
         <input type="checkbox" />
         <label>
           I confirmed that I have read and accepted the <a href="#">Privacy Policy</a>
         </label>
       </div>
+      <div className="signUpBtn">
+        <button type="submit">Sign Up <img src={ArrowImage} alt="" />
+        </button>
+      </div>
 
-      <button type="submit">Sign Up</button>
-
-      <div>
+      <div className='su-haveAccount'>
         Already have an account? <a href="#">Log in</a>
       </div>
     </form>
