@@ -1,0 +1,37 @@
+.signin-LatestDeal {
+    width: var(--screenWidth);
+    height: 364px;
+    margin: 0 5%;
+    border-radius: 20px;
+    background: #163231;
+    position: relative;
+    top: 300px;
+    overflow: visible;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.si-image {
+    border-radius: 20px;
+    position: absolute;
+    top: -303px;
+    left: 0;
+    object-fit: cover;
+}
+
+
+.si-image image {
+    width: 440px;
+    height: 667px;
+    border-radius: 20px;
+}
+
+.si-text {
+    width: Fill (644px)px;
+    height: Hug (98px)px;
+    gap: 10px;
+    opacity: 0px;
+    position: absolute;
+    color: white;
+}

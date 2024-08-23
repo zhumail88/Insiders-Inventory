@@ -63,7 +63,7 @@ form input {
   align-items: center;
 }
 
-.signUpBtn{
+form .nb-btn{
   display: flex;
   justify-content: center;
   align-items: center;

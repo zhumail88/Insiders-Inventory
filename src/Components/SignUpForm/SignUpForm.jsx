@@ -1,6 +1,6 @@
 import React from 'react';
 import './SignupForm.css'
-import ArrowImage from '../../assets/arrow.png'
+import GreenButton from '../GreenButton/GreenButton';
 
 function SignupForm() {
   return (
@@ -47,10 +47,10 @@ function SignupForm() {
           I confirmed that I have read and accepted the <a href="#">Privacy Policy</a>
         </label>
       </div>
-      <div className="signUpBtn">
-        <button type="submit">Sign Up <img src={ArrowImage} alt="" />
-        </button>
-      </div>
+      
+      <GreenButton
+        text = 'Signup'
+      />
 
       <div className='su-haveAccount'>
         Already have an account? <a href="#">Log in</a>
