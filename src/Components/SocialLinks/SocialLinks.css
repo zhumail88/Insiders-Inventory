@@ -1,0 +1,15 @@
+.social-logos {
+    width: auto;
+    height: Hug (40px)px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    opacity: 0px;
+
+
+}
+
+.social-logos ul {
+    list-style: none;
+    cursor: pointer;
+}
