@@ -4,7 +4,7 @@
     align-items: center;
     width: Fixed (1440px)px;
     height: Hug (115.75px)px;
-    padding: 30px 80px 30px 80px;
+    padding: 2% 5%;
     gap: 10px;
     opacity: 0px;
     background-color: #0F2928;
@@ -62,4 +62,50 @@
 .nb-btn img {
     padding-left: 6px;
     align-self: center;
+}
+
+.nb-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuBtn img{
+    display: none;
+}
+
+
+
+@media screen and (max-width : 900px){
+    .nb{
+        height: 70px;
+    }
+
+    .nb-links{
+        background: #0F2928;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        width: 250px;
+        height: calc(100vh - 70px);
+        padding-top: 20px 0px;
+        
+    }
+
+
+    .nb-links ul{
+        flex-direction: column;
+    }
+    .nb-btn{
+        display: none;
+        right: 320px ;
+    }
+    .menuBtn img{
+        display: block;
+        height: 40px;
+        width: auto;
+        background-color: #0F2928;
+        border: none;
+    }
+
 }

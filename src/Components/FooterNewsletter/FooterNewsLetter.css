@@ -9,7 +9,6 @@
     overflow: visible;
     display: flex;
     justify-content: space-around;
-
 }
 
 .si-image {
@@ -34,4 +33,64 @@
     opacity: 0px;
     position: absolute;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    width: Fixed (644px)px;
+    height: Hug (303.75px)px;
+    top: 30px;
+    left: 542px;
+    gap: 20px;
+}
+
+.si-text .si-heading h2 {
+    width: 644px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lora;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.96px;
+    text-align: center;
+
+}
+
+.si-text .si-para p {
+    width: 644px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.si-signup {
+    width: Fill (644px)px;
+    height: Hug (110px)px;
+    gap: 20px;
+    opacity: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.si-signup input[type='text'] {
+    width: Fixed (312px)px;
+    height: Hug (45px)px;
+    padding: 13px 22px 13px 22px;
+    gap: 36px;
+    border-radius: 50px;
+    border: 1px;
+    opacity: 0px;
+    
+
 }

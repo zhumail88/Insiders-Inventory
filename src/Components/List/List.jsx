@@ -38,7 +38,7 @@ export default function List() {
                 <ul>
                     {
                         links.map((item, index) => (
-                            <li key="item.name"> {item.name}</li>
+                            <li key={item.name}> {item.name}</li>
                         ))
                     }
                 </ul>

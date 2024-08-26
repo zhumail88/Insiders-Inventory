@@ -10,6 +10,7 @@ export default function SignupPage() {
             <div className="su-picture">
                 <img src={SignUpPic} alt="." />
             </div>
+            
             <div className="su-form">
               <SignupForm/>
              </div>
