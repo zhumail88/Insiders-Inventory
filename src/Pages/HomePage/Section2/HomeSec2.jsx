@@ -1,10 +1,9 @@
 import React from 'react'
 import './HomeSec2.css'
-import LeftArrow from '../../../assets/leftArrow.png'
-import RightArrow from '../../../assets/rightArrow.png'
 import PropertyCard from '../../../Components/PropertyCard/PropertyCard'
 import Property1 from '../../../assets/property1.png'
-
+import NavButtons from '../../../Components/NavButtons/NavButtons'
+import Headings from '../../../Components/Headings/Headings'
 
 export default function HeadingSec2() {
     return (
@@ -16,12 +15,17 @@ export default function HeadingSec2() {
 
                 <div className="h-sec2-header">
                     <div className="h-sec2-heading">
-                        <h1>Off-Market <span className='heading-green'>Properties</span></h1>
+                        <Headings
+                            normalHeading="Off-Market"
+                            greenHeading="Properties"
+                        />
+
                     </div>
+
                     <div className="h-sec2-slider">
-                        <img src={LeftArrow} alt="<-" />
-                        <img src={RightArrow} alt="->" />
+                        <NavButtons />
                     </div>
+
                 </div>
 
                 <div className="h-sec2-cards">

@@ -1,22 +1,18 @@
-.h-sec3{
+.h-sec4{
     width: screen;
     height: 100vh;
+    background-color: #EFEFEF   ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 90px;
-    background-color: #EFEFEF;
+    gap: 60px;
+
 }
 
-.h-sec3-heading{
-    font-size: 2rem;
-}
-
-
-.h-sec3-cards{
+.h-sec4-reviews{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }

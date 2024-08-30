@@ -1,0 +1,14 @@
+.nav-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.nav-btns #left:hover,
+.nav-btns #right:hover
+{
+    transform: scale(1.25);
+    transition: all 0.4s ease;
+}

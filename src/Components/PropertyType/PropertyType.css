@@ -1,5 +1,5 @@
 .propertyType {
-    background-color: #ffff;
+    background-color: #EFEFEE;
     width: 400px;
     height: Fixed auto;
     display: flex;
@@ -9,8 +9,18 @@
     gap: 25px;
 }
 
-.propertyType .pt-image img{
+.propertyType .pt-image img {
     border-radius: 50%;
+    width: 385px;
+    height: 375.86px;
+    object-fit: cover;
+}
+
+.propertyType .pt-image img:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    
 }
 
 .propertyType .pt-tilte h2 {
@@ -28,5 +38,5 @@
     font-weight: 500;
     line-height: 19.2px;
     text-align: center;
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
 }

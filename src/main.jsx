@@ -10,6 +10,7 @@ import GreenButton from './Components/GreenButton/GreenButton.jsx'
 import MasterLogin from './Pages/MasterLogin/MasterLogin.jsx'
 import SignupPage from './Pages/SignUpPage/SignUpPage.jsx'
 import PropertyType from './Components/PropertyType/PropertyType.jsx'
+import ClientReviews from './Components/ClientReviews/ClientReviews.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
     <HomePage/>
     {/* <MasterLogin/> */}
     {/* <SignupPage/> */}
+    {/* <ClientReviews/> */}
     
   </StrictMode>,
 )

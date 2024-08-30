@@ -9,6 +9,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 25px;
 }
 
@@ -16,21 +18,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+
 }
 
-.h-sec2-header .h-sec2-heading h1{
-    font-size: 2.75rem;
-    font-weight: 700;
-}
-
-.h-sec2-header .h-sec2-slider{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-
-    cursor: pointer;
-}
 
 .heading-green{
     color: #4DAD49;
@@ -40,5 +31,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     margin-top: 30px;
 }

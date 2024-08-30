@@ -4,13 +4,20 @@ import PropertyType from '../../../Components/PropertyType/PropertyType'
 import PropertyType1 from '../../../assets/PropertyType1.png'
 import PropertyType2 from '../../../assets/PropertyType2.png'
 import PropertyType3 from '../../../assets/PropertyType3.png'
+import Headings from '../../../Components/Headings/Headings'
 
 export default function HomeSec3() {
   return (
     <>
       <div className="h-sec3 padding">
+        
         <div className="h-sec3-heading">
-          <h1>Off-Market <span className="heading-green">Property Type</span></h1>
+          
+          <Headings
+              normalHeading="Off-Market"
+              greenHeading="Property Types"
+          />
+
         </div>
 
         <div className="h-sec3-cards">
@@ -26,11 +33,11 @@ export default function HomeSec3() {
             description="Tailored Retail Spaces for Owner-Occupied Success in Prime Locations."
           />
 
-          {/* <PropertyType
+          <PropertyType
             image={PropertyType3}
             title="Flip Opportunities"
             description="Seize Profit Potential: Explore High-Yield Flip Opportunities with Insider's Inventory."
-          /> */}
+          />
         </div>
       </div>
 
