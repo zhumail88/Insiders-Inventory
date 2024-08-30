@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
-import SignupPage from './Components/SignupPage/SignupPage'
+import SignupPage from './Pages/SignUpPage/SignUpPage'
 import Footer from './Components/Footer/Footer'
 
 export default function App() {

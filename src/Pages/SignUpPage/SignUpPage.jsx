@@ -1,7 +1,7 @@
 import React from 'react'
 import './SignupPage.css'
 import SignUpPic from '../../assets/signup-page-pic.png'
-import SignupForm from '../SignUpForm/SignUpForm'
+import SignupForm from '../../Components/SignUpForm/SignUpForm'
 
 export default function SignupPage() {
   return (
