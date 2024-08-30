@@ -1,0 +1,105 @@
+.masterLogin{
+    background: #0F2928;
+    width: var(screen);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.masterLogin .ml-heading img{
+    height:200px;
+    width: auto;
+}
+
+.ml-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ml-login{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 35%;
+    height: auto;
+    margin: 6%;
+    gap: 16px;
+}
+
+.ml-login p{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.ml-login  .ml-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ml-login  .ml-input label{
+    font-weight: 600;
+    font-size: 18.9px;
+}
+
+.ml-login .ml-input  input[type="password"],
+.ml-login .ml-input  input[type="text"] {
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    border-radius: 18px;
+    font-size: 18px;
+
+
+}
+
+.ml-login li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.ml-checkbox-fp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ml-checkbox-fp .forgetPassword{
+    color: #4DAD49;
+    ;
+}
+
+.ml-btn{
+    width: 100%;
+    text-align: center;
+}
+
+.ml-backBtn{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.ml-backBtn img{
+    cursor: pointer;
+    
+}
+
+.ml-backBtn li{
+    list-style-type: none ;
+    cursor: pointer;
+
+}
