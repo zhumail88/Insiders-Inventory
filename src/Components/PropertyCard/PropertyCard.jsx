@@ -56,9 +56,9 @@ export default function PropertyCard(
                 </div>
 
 
-                <div className="btn">
+                <div className="propertyBtn">
                     <GreenButton
-                        text="View our Off-Market Inventory"
+                        text="Login To Make An Offer"
                     />
 
                 </div>

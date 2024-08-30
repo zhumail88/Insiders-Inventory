@@ -1,0 +1,44 @@
+
+
+/* __________________________Section 2__________________________  */
+
+.h-sec2{
+    /* background-color: #e1db39; */
+    background-color: #EFEFEF;
+    width: var(screen);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.h-sec2-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h-sec2-header .h-sec2-heading h1{
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+.h-sec2-header .h-sec2-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    cursor: pointer;
+}
+
+.heading-green{
+    color: #4DAD49;
+}
+
+.h-sec2-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}

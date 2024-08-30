@@ -14,8 +14,9 @@ import SignupPage from './Pages/SignUpPage/SignUpPage.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    {/* <HomePage/> */}
+    <HomePage/>
     {/* <MasterLogin/> */}
-    <SignupPage/>
+    {/* <SignupPage/> */}
+    
   </StrictMode>,
 )
