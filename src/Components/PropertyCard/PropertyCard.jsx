@@ -1,6 +1,5 @@
 import React from 'react'
 import './PropertyCard.css'
-import Property1 from '../../assets/property1.png'
 import LocationLogo from "../../assets/location.png"
 import GreenButton from '../GreenButton/GreenButton.jsx'
 
@@ -10,9 +9,12 @@ export default function PropertyCard(
         propertyPic,
         propertyInfo = {
             name: "Unavailable",
-            price: "Unavailable",
+            price: 0,
             description: "Unavailable",
-            location: "Unavailable"
+            location: "Unavailable",
+            initialInvestment: 0,
+            roi: 0
+
         }
     }
 ) {
@@ -22,26 +24,26 @@ export default function PropertyCard(
 
                 <div className="propertyImage">
                     <div className="imageAndStatus">
-                        <img src={Property1} alt="" />
+                        <img src={propertyPic} alt="" />
                         <p>{propertyStatus}</p>
                     </div>
 
                     <div className="investmentOption">
-                        <div className="intialInvestment">
-                            <h2>Initial Investment 
-                                <span
-                                    className='money'
-                                >{propertyInfo.initialInvestment} 789234</span> 
 
-                            </h2>
+                        <div className="intialInvestment">
+                            <h2>Initial Investment</h2>
+                            <span
+                                className='money'
+                            >{propertyInfo.initialInvestment} Rs/-</span>
                         </div>
 
+                        <hr />
+
                         <div className="roi">
-                            <h2>Potential ROI 
-                                <span
+                            <h2>Potential ROI</h2>
+                            <span
                                 className='money'
-                                >{propertyInfo.roi} 457903</span>
-                            </h2>
+                            >{propertyInfo.roi} %</span>
                         </div>
                     </div>
                 </div>

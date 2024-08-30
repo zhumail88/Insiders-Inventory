@@ -8,6 +8,12 @@
     box-shadow: 0px 0px 3.7px 0px #00000040;
 }
 
+.propertyCard:hover{
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
 .propertyImage{
     display: flex;
     flex-direction: column;
@@ -23,7 +29,7 @@
     color: white;
     padding: 6px 16px 6px 16px;
     gap: 10px;
-    border-radius: 3px;
+    border-radius: 6px;
 
 }
 
@@ -80,27 +86,24 @@
     width: 340px;
     height: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #EFEFEE;
     font-size: 12px;
     border-radius: 6px;
     box-shadow: 0px 0px 3.7px 0px #00000040;
+    padding: 0 4%;
+}
 
+.investmentOption hr{
+    height: 75%;
 }
 
 
-.intialInvestment{
-    border-right: black solid;
-    padding-left: 13px;
-}
-
-.roi{
-    padding-left: 13px;
-}
-
-.money{
+.investmentOption .money{
     color: #4DAD49;
+    padding: 2px 0;
+    font-size: 0.9rem;
 }
 
 .propertyCard .propertyBtn{
