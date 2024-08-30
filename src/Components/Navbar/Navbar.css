@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: Fixed (1440px)px;
-    height: Hug (115.75px)px;
+    height: 100px;
     padding: 2% 5%;
     gap: 10px;
     opacity: 0px;
@@ -68,6 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0F2928;
 }
 
 .menuBtn img{
@@ -96,6 +97,7 @@
     .nb-links ul{
         flex-direction: column;
     }
+
     .nb-btn{
         display: none;
         right: 320px ;

@@ -3,11 +3,16 @@ import '../../Components/Navbar/Navbar.css'
 import Arrow from "../../assets/Arrow.png"
 
 
-export default function GreenButton({ text }) {
+export default function GreenButton({ text , btnStyle }) {
   return (
     <>
       <div className="nb-btn">
-        <button>{text}<img src={Arrow} alt="" /></button>
+        <button
+          style={btnStyle}
+        >
+          {text}<img src={Arrow} alt="" />
+        
+        </button>
       </div>
     </>
   )

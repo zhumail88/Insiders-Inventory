@@ -11,6 +11,8 @@ export default function Navbar() {
     
     function toggleMenu(){
         setMenuBtnState(!menuBtnState);
+        console.log(menuBtnState);
+        
     }
     return (
         <div className="nb">
@@ -22,9 +24,8 @@ export default function Navbar() {
                  className='menuBtn'
                  onClick={() => toggleMenu()}
                  >
-                    
-                    <img src={MenuBtn} alt=":" /></button>
-
+                    <img src={MenuBtn} alt=":" />
+                </button>
 
                 <GreenButton
                     text="Login/SignUp"
