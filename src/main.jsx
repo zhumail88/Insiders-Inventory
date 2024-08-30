@@ -9,6 +9,7 @@ import PropertyCard from './Components/PropertyCard/PropertyCard.jsx'
 import GreenButton from './Components/GreenButton/GreenButton.jsx'
 import MasterLogin from './Pages/MasterLogin/MasterLogin.jsx'
 import SignupPage from './Pages/SignUpPage/SignUpPage.jsx'
+import PropertyType from './Components/PropertyType/PropertyType.jsx'
 
 
 createRoot(document.getElementById('root')).render(

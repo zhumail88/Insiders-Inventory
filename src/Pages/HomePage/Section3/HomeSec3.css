@@ -1,0 +1,13 @@
+.h-sec3{
+    width: screen;
+    height: 100vh;
+    background-color: pink;
+}
+
+
+.h-sec3-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}

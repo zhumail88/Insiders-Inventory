@@ -1,0 +1,32 @@
+.propertyType {
+    background-color: #ffff;
+    width: 400px;
+    height: Fixed auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.propertyType .pt-image img{
+    border-radius: 50%;
+}
+
+.propertyType .pt-tilte h2 {
+    font-family: Lora;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.16px;
+    text-align: center;
+
+}
+
+.propertyType .pt-description p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: center;
+    padding-bottom: 10px ;
+}
