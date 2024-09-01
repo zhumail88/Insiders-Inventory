@@ -1,0 +1,39 @@
+.signin-form{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.signin-form h2{
+    font-size: 2.25rem;
+}
+
+.si-input{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.confirmButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.rmbr-cb input[type='checkbox']{
+    height: 30px;
+    width: auto;
+}
+
+.rmbr-cb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.forget-pass a{
+    text-decoration: none;
+    color: #4DAD49;
+}

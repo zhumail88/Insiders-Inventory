@@ -18,6 +18,5 @@ export default function HomePage() {
             <HomeSec4/>
             <Footer/>
         </>
-
     )
 }

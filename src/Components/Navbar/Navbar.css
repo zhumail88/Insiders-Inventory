@@ -38,8 +38,9 @@
     text-align: left;
     color: white;
 }
-.nb-links ul li:hover , .nb-btn {
-    transform: scale(1.02);
+.nb-links ul li:hover , 
+.nb-btn:hover {
+    transform: scale(0.95);
     transition: all 0.3s ease;
 }
 
@@ -71,10 +72,11 @@
     background-color: #0F2928;
 }
 
-.menuBtn img{
+
+
+.menuBtn{
     display: none;
 }
-
 
 /* 
 @media screen and (max-width : 900px){

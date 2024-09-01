@@ -1,22 +1,9 @@
 import React from 'react'
 import './App.css'
-import Navbar from './Components/Navbar/Navbar'
-import SignupPage from './Pages/SignUpPage/SignUpPage'
-import Footer from './Components/Footer/Footer'
+import AppRouter from './config/AppRouter/AppRouter'
 
 export default function App() {
   return (
-    <div className="maincontainer">
-      <div className="nav">
-        <Navbar />
-      </div>
-      <div className="signupPage">
-        <SignupPage />
-      </div>
-      <div className="footer">
-        <Footer/>
-      </div>
-    </div>
-
+    <AppRouter/>
   )
 }

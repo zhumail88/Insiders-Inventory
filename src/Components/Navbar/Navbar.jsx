@@ -4,10 +4,16 @@ import Heading from '../Heading/Heading'
 import List from '../List/List'
 import GreenButton from '../GreenButton/GreenButton'
 import MenuBtn from '../../assets/menu.png'
+import { useNavigate } from 'react-router-dom'
 
 export default function Navbar() {
 
     const [menuBtnState , setMenuBtnState] = useState(false);
+    const navigate = useNavigate();
+
+    const showSignUpPage = ()=>{
+        navigate('/SignUpPage');
+    }
     
     function toggleMenu(){
         setMenuBtnState(!menuBtnState);
@@ -29,6 +35,7 @@ export default function Navbar() {
 
                 <GreenButton
                     text="Login/SignUp"
+                    onClick={()=>showSignUpPage()}
                 />
             </div>
 

@@ -1,8 +1,14 @@
 import React from 'react'
 import GreenButton from '../../../Components/GreenButton/GreenButton'
 import './HomeSec1.css'
+import { useNavigate } from 'react-router-dom'
 
 export default function HeadingSec1() {
+    const navigate = useNavigate();
+
+    const showSignUpPage = ()=>{
+        navigate('/SignInPage');
+    }
     return (
         <>
             {/* Section-1  : Headings and stuff */}
@@ -22,6 +28,7 @@ export default function HeadingSec1() {
                 <div className="h-sec1-buttons">
                     <GreenButton
                         text="Sign up for the Latest Deals"
+                        onClick={()=>showSignUpPage()}
                     />
                     <GreenButton
                         text="View our Off-Market Inventory"

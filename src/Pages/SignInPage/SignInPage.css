@@ -1,0 +1,10 @@
+.si-content{
+    display: flex;
+    align-items: normal;
+    justify-content: space-around; 
+    margin: 6%;
+}
+
+.si-form{
+    background-color: pink;
+}
