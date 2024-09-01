@@ -5,20 +5,26 @@ import FooterLogo from "../../assets/logo.png"
 import Heading from '../Heading/Heading'
 import List from '../List/List'
 import SocailLinks from '../SocialLinks/SocailLinks'
+import FooterNewsLetter from '../FooterNewsLetter/FooterNewsLetter'
 
 
 
 export default function Footer() {
   return (
+
+
+    <>
+
+    <div className="footer-top">
+      <FooterNewsLetter/>
+    </div>
+    
     <div className="footer-container">
       
       <div className="footer-content">
       
         <div className="footer-signup">
-          <div className="footer-image">
-            {/* <img src={FooterImage} alt="" /> */}
-
-          </div>
+          
 
         </div>  
       
@@ -46,5 +52,6 @@ export default function Footer() {
       </div>
 
     </div>
+    </>
   )
 }

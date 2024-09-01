@@ -7,7 +7,7 @@ export default function HeadingSec1() {
     const navigate = useNavigate();
 
     const showSignUpPage = ()=>{
-        navigate('/SignInPage');
+        navigate('/SignUpPage');
     }
     return (
         <>

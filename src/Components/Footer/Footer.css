@@ -12,22 +12,16 @@
 
 .footer-content {
     width: Fixed (1, 282px)px;
-    height: Hug (652.92px)px;
-    left: 79px;
+    height: 200px;
     gap: 60px;
-    opacity: 0px;
-
-    /* background-color: orange; */
-    background: #0F2928;
+    background-color: #fff;
 
 }
 
 .footer-signup {
     width: 1282px;
     height: 364px;
-    gap: 0px;
-    opacity: 0px;
-    overflow: visible;
+
 }
 
 .footer-signup .footer-image {

@@ -11,7 +11,7 @@ export default function SignInPage() {
       <Navbar />
       <div className="si-content">
           
-        <div className="si-image">
+        <div className="si-images">
           <img src={SignInPic} alt="" />
         </div>
 

@@ -6,7 +6,7 @@ import SignupForm from './Components/SignUpForm/SignUpForm.jsx'
 import HomePage from './Pages/HomePage/HomePage.jsx'
 import SignInPage from './Pages/SignInPage/SignInPage.jsx'
 import AppRouter from './config/AppRouter/AppRouter.jsx'
-
+import Footer from './Components/Footer/Footer.jsx'
 
 
 

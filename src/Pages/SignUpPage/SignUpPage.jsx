@@ -3,6 +3,7 @@ import './SignupPage.css'
 import SignUpPic from '../../assets/signup-page-pic.png'
 import SignupForm from '../../Components/SignUpForm/SignUpForm'
 import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
 
 export default function SignupPage() {
   return (
@@ -20,6 +21,7 @@ export default function SignupPage() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

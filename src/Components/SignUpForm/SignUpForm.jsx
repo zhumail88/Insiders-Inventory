@@ -1,6 +1,7 @@
 import React from 'react';
 import './SignupForm.css'
 import GreenButton from '../GreenButton/GreenButton';
+import { Link } from 'react-router-dom';
 
 function SignupForm() {
   return (
@@ -47,13 +48,13 @@ function SignupForm() {
           I confirmed that I have read and accepted the <a href="#">Privacy Policy</a>
         </label>
       </div>
-      
+
       <GreenButton
-        text = 'Signup'
+        text='Signup'
       />
 
-      <div className='su-haveAccount'>
-        Already have an account? <a href="#">Log in</a>
+      <div className="su-haveAccount">
+        Already have an account? <Link to="/SignInPage">Log in</Link>
       </div>
     </form>
   );

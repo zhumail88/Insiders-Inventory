@@ -1,6 +1,7 @@
 import React from 'react'
 import './SignInForm.css'
 import GreenButton from '../GreenButton/GreenButton'
+import { Link } from 'react-router-dom'
 
 export default function SignInForm() {
     return (
@@ -36,7 +37,7 @@ export default function SignInForm() {
 
 
                 <div className='su-haveAccount'>
-                    Don't have an account? <a href="#">SignUp</a>
+                    Don't have an account? <Link to='/SignUpPage'>Sign Up</Link>
                 </div>
 
             </form>

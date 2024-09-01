@@ -2,8 +2,12 @@ import React from 'react'
 import './FooterNewsLetter.css'
 import BuildingPicture from '../../assets/footer-image.png'
 import GreenButton from '../GreenButton/GreenButton'
+import { useNavigate } from 'react-router-dom'
 
 export default function FooterNewsLetter() {
+    // const navigate = useNavigate();
+
+
     return (
         <>
             <div className="signin-LatestDeal">
@@ -42,6 +46,7 @@ export default function FooterNewsLetter() {
                     <div className="si-button">
                         <GreenButton
                             text={'SignUp For The Latest Deals'}
+                            // onClick={()=>navigate('/SignUpPage')}
                         />
 
                     </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import './PropertyCard.css'
 import LocationLogo from "../../assets/location.png"
 import GreenButton from '../GreenButton/GreenButton.jsx'
+import { Navigate, useNavigate } from 'react-router-dom'
 
 export default function PropertyCard(
     {
@@ -14,10 +15,11 @@ export default function PropertyCard(
             location: "Unavailable",
             initialInvestment: 0,
             roi: 0
-
+            
         }
     }
 ) {
+    const navigate = useNavigate();
     return (
         <>
             <div className="propertyCard">
@@ -61,6 +63,7 @@ export default function PropertyCard(
                 <div className="propertyBtn">
                     <GreenButton
                         text="Login To Make An Offer"
+                        onClick={()=>navigate('/SignInPage')}
                     />
 
                 </div>

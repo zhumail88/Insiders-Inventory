@@ -14,34 +14,31 @@
 .si-image {
     border-radius: 20px;
     position: absolute;
-    top: -303px;
+    top: -180px;
     left: 0;
     object-fit: cover;
 }
 
 
-.si-image image {
-    width: 440px;
-    height: 667px;
-    border-radius: 20px;
+.si-image img {
+    width: auto;
+    height: 550px;
+    
+    
 }
 
 .si-text {
-    width: Fill (644px)px;
-    height: Hug (98px)px;
-    gap: 10px;
-    opacity: 0px;
+    width: 644pxpx;
+    height: 100 px;
     position: absolute;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: pink;
-    width: Fixed (644px)px;
-    height: Hug (303.75px)px;
+    
     top: 30px;
-    left: 542px;
+    left: 20%;
     gap: 20px;
 }
 
@@ -84,7 +81,7 @@
 }
 
 .si-signup input[type='text'] {
-    width: Fixed (312px)px;
+    width: 500px;
     height: Hug (45px)px;
     padding: 13px 22px 13px 22px;
     gap: 36px;
