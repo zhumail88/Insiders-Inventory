@@ -23,8 +23,8 @@ export default function HomeSec4() {
                         clientDescription={
                             {
                                 name: 'Shumail',
-                                position: 'CEO',
-                                designation: 'Bakchod Nagar'
+                                position: 'Augghhh',
+                                designation: 'Agghhh'
 
                             }
                         }
@@ -35,8 +35,9 @@ export default function HomeSec4() {
                         clientDescription={
                             {
                                 name: 'Shumail',
-                                position: 'CEO',
-                                designation: 'Bakchod Nagar'
+                                
+                                position: 'Augghhh',
+                                designation: 'Agghhh'
 
                             }
                         }
@@ -48,8 +49,8 @@ export default function HomeSec4() {
                         clientDescription={
                             {
                                 name: 'Shumail',
-                                position: 'CEO',
-                                designation: 'Bakchod Nagar'
+                                position: 'Augghhh',
+                                designation: 'Agghhh'
 
                             }
                         }

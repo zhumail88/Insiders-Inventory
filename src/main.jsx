@@ -7,11 +7,14 @@ import HomePage from './Pages/HomePage/HomePage.jsx'
 import SignInPage from './Pages/SignInPage/SignInPage.jsx'
 import AppRouter from './config/AppRouter/AppRouter.jsx'
 import Footer from './Components/Footer/Footer.jsx'
-
+import MasterLogin from './Pages/MasterLogin/MasterLogin.jsx'
+import Section1 from './Pages/HomePage/Section1/HomeSec1.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <MasterLogin/> */}
+    <Section1/>
   </StrictMode>,
 )

@@ -4,7 +4,7 @@ import './HomeSec1.css'
 import { useNavigate } from 'react-router-dom'
 
 export default function HeadingSec1() {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const showSignUpPage = ()=>{
         navigate('/SignUpPage');
