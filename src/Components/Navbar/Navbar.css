@@ -113,3 +113,27 @@
     }
 
 } */
+
+
+/* Responsiveness of button */
+@media screen and (max-width:800px){
+    .nb-btn{
+        text-align: center;
+        width: 100%;
+    }
+    .nb-btn button {
+        width: auto;
+        padding: 2%;
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-align: left;
+        cursor:pointer;
+    }
+    
+    .nb-btn img {
+        padding-left: 6px;
+        align-self: center;
+        width: 15px;
+        height: auto;
+    }
+}

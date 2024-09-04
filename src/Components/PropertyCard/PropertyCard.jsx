@@ -19,7 +19,7 @@ export default function PropertyCard(
         }
     }
 ) {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     return (
         <>
             <div className="propertyCard">
