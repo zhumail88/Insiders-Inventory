@@ -10,6 +10,7 @@ import Footer from './Components/Footer/Footer.jsx'
 import MasterLogin from './Pages/MasterLogin/MasterLogin.jsx'
 import Section1 from './Pages/HomePage/Section1/HomeSec1.jsx'
 import Section2 from './Pages/HomePage/Section2/HomeSec2.jsx'
+import Section3 from './Pages/HomePage/Section3/HomeSec3.jsx'
 import NavButtons from './Components/NavButtons/NavButtons.jsx'
 import GreenButton from './Components/GreenButton/GreenButton.jsx'
 
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
     {/* <App /> */}
     {/* <MasterLogin/> */}
     <Section1/>
-    <Section2/>
+     <Section2/> 
+    <Section3/>
   </StrictMode>,
 )

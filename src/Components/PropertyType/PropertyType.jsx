@@ -5,7 +5,7 @@ import './PropertyType.css'
 export default function PropertyType({image , title , description}) {
   return (
     <>
-        <div className="propertyType">
+        <div className="propertyType padding">
             
             <div className="pt-image">
                 <img src={image} alt="x" />

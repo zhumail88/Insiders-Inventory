@@ -1,22 +1,33 @@
 .h-sec3{
     width: screen;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 90px;
     background-color: #EFEFEF;
 }
 
 .h-sec3-heading{
-    font-size: 2rem;
+    padding-bottom: 60px; 
 }
-
 
 .h-sec3-cards{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+
+
+@media screen and (max-width : 800px) {
+    .h-sec3-heading .generalHeading h1{
+        font-size: 2rem;
+    }
+    .h-sec3 .h-sec3-heading h1{
+        line-height: 1;
+    }
+    .h-sec3-heading{
+        padding-bottom: 6%; 
+        padding-top: 6% ;
+    }
 }

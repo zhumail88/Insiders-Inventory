@@ -46,9 +46,9 @@
         width: 100%;        
         text-align: center;
     }
-    .h-sec2-header .generalHeading h1 ,span{
-        font-size: 2rem;
-    }
+    .h-sec2-header .generalHeading h1 ,
+    .h-sec2-header .generalHeading span{
+        font-size: 2rem;    }
 
     .h-sec2-header,
     .h-sec2-cards 

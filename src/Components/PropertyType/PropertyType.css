@@ -1,26 +1,35 @@
 .propertyType {
     background-color: #EFEFEE;
-    width: 400px;
-    height: Fixed auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 25px;
+    background-color: white;
+    border: 2px solid white; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.propertyType:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.propertyType .pt-image {
+    width: 100%;
+    max-width: 500px; 
+    display: flex;
+    justify-content: center;
 }
 
 .propertyType .pt-image img {
     border-radius: 50%;
-    width: 385px;
-    height: 375.86px;
     object-fit: cover;
-}
-
-.propertyType .pt-image img:hover {
-    transform: scale(1.05);
-    transition: all 0.4s ease;
-    cursor: pointer;
-    
+    width: 100%;
+    max-width: 450px; 
+    height: auto;
 }
 
 .propertyType .pt-tilte h2 {
