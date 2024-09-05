@@ -11,6 +11,7 @@ import MasterLogin from './Pages/MasterLogin/MasterLogin.jsx'
 import Section1 from './Pages/HomePage/Section1/HomeSec1.jsx'
 import Section2 from './Pages/HomePage/Section2/HomeSec2.jsx'
 import Section3 from './Pages/HomePage/Section3/HomeSec3.jsx'
+import Section4 from './Pages/HomePage/Section4/HomeSec4.jsx'
 import NavButtons from './Components/NavButtons/NavButtons.jsx'
 import GreenButton from './Components/GreenButton/GreenButton.jsx'
 
@@ -20,8 +21,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <MasterLogin/> */}
-    <Section1/>
+    {/* <Section1/>
      <Section2/> 
-    <Section3/>
+    <Section3/> */}
+    <Section4/>
+
   </StrictMode>,
 )

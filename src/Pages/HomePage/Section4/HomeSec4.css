@@ -1,6 +1,5 @@
 .h-sec4{
     width: screen;
-    height: 100vh;
     background-color: #EFEFEF   ;
     display: flex;
     flex-direction: column;
@@ -15,4 +14,11 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+
+@media screen and (max-width:800px){
+    .h-sec4-heading .generalHeading h1{
+        font-size: 1.87rem;
+    }
 }
