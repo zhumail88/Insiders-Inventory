@@ -11,8 +11,6 @@ import FooterNewsLetter from '../FooterNewsLetter/FooterNewsLetter'
 
 export default function Footer() {
   return (
-
-
     <>
 
     <div className="footer-top">

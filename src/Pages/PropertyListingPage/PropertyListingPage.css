@@ -1,0 +1,27 @@
+.pl-heroPage{
+    background-color: #0F2928;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+    padding: 8%;
+}
+.pl-heroPage .generalHeading{
+    color:white;
+}
+
+.pl-heroPage p{
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width : 600px){
+    .pl-heroPage{
+        padding: 12%;
+    }
+
+    .pl-heroPage .generalHeading{
+        font-size: 1.7rem;
+    }
+}

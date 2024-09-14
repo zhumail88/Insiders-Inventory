@@ -4,6 +4,7 @@ import HomePage from '../../Pages/HomePage/HomePage'
 import SignUpPage from '../../Pages/SignUpPage/SignUpPage'
 import MasterLogin from '../../Pages/MasterLogin/MasterLogin'
 import SignInPage from '../../Pages/SignInPage/SignInPage'
+import PropertyListingPage from '../../Pages/PropertyListingPage/PropertyListingPage'
 
 export default function AppRouter() {
   return (
@@ -14,6 +15,7 @@ export default function AppRouter() {
                 <Route path='/SignUpPage' element={<SignUpPage/>} />
                 <Route path='/MasterLogin' element={<MasterLogin/>} />
                 <Route path='/SignInPage' element={<SignInPage/>}/>
+                <Route path='/PropertyListingPage' element={<PropertyListingPage/>}/>
             </Routes>
         </BrowserRouter>
     </>

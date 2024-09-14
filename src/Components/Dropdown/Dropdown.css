@@ -1,0 +1,17 @@
+.dropdown{
+    border: 1px solid #4DAD49;
+    border-radius: 35px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+    padding: 10px;
+
+}
+
+.dropdown select{
+    border:none;
+    outline: none;
+    width: 88%;
+}
