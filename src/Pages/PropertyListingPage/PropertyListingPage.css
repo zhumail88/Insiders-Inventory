@@ -16,6 +16,16 @@
     text-align: center;
 }
 
+.pl-sec2-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
 @media screen and (max-width : 600px){
     .pl-heroPage{
         padding: 12%;
