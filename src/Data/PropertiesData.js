@@ -16,7 +16,7 @@ const Properties = [
         "currentStatus": "New"
     },
     {
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtZFyb2akvS_EkACDpyNNre3CDOCThUovLmw&s",
+        "img": img,
         "status": "Sold",
         "currentStatus": ""
     },
@@ -41,7 +41,7 @@ const Properties = [
         "currentStatus": ""
     },
     {
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtZFyb2akvS_EkACDpyNNre3CDOCThUovLmw&s",
+        "img": img,
         "status": "Sold",
         "currentStatus": ""
     },
@@ -66,7 +66,7 @@ const Properties = [
         "currentStatus": "Sold"
     },
     {
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtZFyb2akvS_EkACDpyNNre3CDOCThUovLmw&s",
+        "img": img,
         "status": "Sold",
         "currentStatus": "Sold"
     },

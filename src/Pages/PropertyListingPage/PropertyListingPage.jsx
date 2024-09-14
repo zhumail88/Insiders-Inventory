@@ -46,21 +46,19 @@ export default function PropertyListingPage() {
 
 
             {/* Displaying Properteis */}
-            <section className="pl-sec3">
+            <section className="pl-sec3 padding">
                 <div className="pl-sec3-info">
 
                 </div>
 
-                <div className="pl-sec3-properties">
+                <div className="pl-sec3-properties padding" >
                     <Grid container spacing={3}>
-                        <Grid item xs={12} sm={3} md={3} >
-                            {
-                                Properties.map((item, index) => (
+                        {
+                            Properties.map((item, index) => (
+                                <Grid item xs={12} sm={6} md={4} key={index}>
                                     <PropertyCard
-                                        key={index}
                                         propertyStatus={item.status}
                                         propertyPic={item.img}
-    
                                         propertyInfo={{
                                             name: "Luxury Apartment",
                                             price: 450000,
@@ -70,14 +68,10 @@ export default function PropertyListingPage() {
                                             roi: 37
                                         }}
                                     />
-    
-                                ))
-                            }
-                        </Grid>
-
+                                </Grid>
+                            ))
+                        }
                     </Grid>
-
-
                 </div>
             </section >
 
