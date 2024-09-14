@@ -30,7 +30,9 @@ export default function HeadingSec2() {
                 </div>
 
                 <div className="h-sec2-cards">
-                    <Grid container spacing={3} >
+                    <Grid container spacing={3}
+                        justifyContent="center"
+                        alignItems="center">
                         <Grid item xs={12} sm={6} md={4} lg={3}>
 
                             <PropertyCard

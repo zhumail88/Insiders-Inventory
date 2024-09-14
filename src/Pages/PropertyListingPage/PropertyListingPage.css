@@ -23,6 +23,12 @@
     flex-wrap: wrap;
 }
 
+.pl-sec3-properties{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
 

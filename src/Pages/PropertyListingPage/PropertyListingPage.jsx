@@ -48,15 +48,24 @@ export default function PropertyListingPage() {
             {/* Displaying Properteis */}
             <section className="pl-sec3 padding">
                 <div className="pl-sec3-info">
+                    <p>
+                        Showing 1-25 results out of 480 properties
+                    </p>
+
 
                 </div>
 
                 <div className="pl-sec3-properties padding" >
-                    <Grid container spacing={3}>
+                    <Grid container
+                        spacing={3}
+                        justifyContent="center"
+                        alignItems="center">
+
                         {
                             Properties.map((item, index) => (
                                 <Grid item xs={12} sm={6} md={4} key={index}>
                                     <PropertyCard
+                                        status={item.currentStatus}
                                         propertyStatus={item.status}
                                         propertyPic={item.img}
                                         propertyInfo={{

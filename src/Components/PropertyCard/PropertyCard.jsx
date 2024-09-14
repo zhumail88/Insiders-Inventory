@@ -3,9 +3,11 @@ import './PropertyCard.css'
 import LocationLogo from "../../assets/location.png"
 import GreenButton from '../GreenButton/GreenButton.jsx'
 import { Navigate, useNavigate } from 'react-router-dom'
+import { styled } from '@mui/material'
 
 export default function PropertyCard(
     {
+        status,
         propertyStatus = "Unavailable",
         propertyPic,
         propertyInfo = {
@@ -15,7 +17,7 @@ export default function PropertyCard(
             location: "Unavailable",
             initialInvestment: 0,
             roi: 0
-            
+
         }
     }
 ) {
@@ -27,7 +29,19 @@ export default function PropertyCard(
                 <div className="propertyImage">
                     <div className="imageAndStatus">
                         <img src={propertyPic} alt="" />
-                        <p>{propertyStatus}</p>
+                        <span>{propertyStatus}</span>
+                        {status &&
+                            <div
+                                className='currentStatus'
+                                style={{
+                                    backgroundColor: status == 'New' ? '#4DAD49' : status == 'Sold' ? 'red' : 'background: #FFCB11',
+                                    
+                                }}
+                            >
+                                <p>{status}</p>
+                            </div>
+                        }
+
                     </div>
 
                     <div className="investmentOption">
@@ -63,7 +77,7 @@ export default function PropertyCard(
                 <div className="propertyBtn">
                     <GreenButton
                         text="Login To Make An Offer"
-                        onClick={()=>navigate('/SignInPage')}
+                        onClick={() => navigate('/SignInPage')}
                     />
 
                 </div>
